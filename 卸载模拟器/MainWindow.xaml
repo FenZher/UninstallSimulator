@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:卸载模拟器"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="卸载模拟器" Height="250" Width="300">
     <Grid>
-
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="0.5*" />
+            <RowDefinition Height="0.5*" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Label Content="卸 载 模 拟 器" FontWeight="Normal" FontSize="36" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        <TextBlock Grid.Row="3" VerticalAlignment="Bottom" HorizontalAlignment="Left">
+            <Hyperlink NavigateUri="https://github.com/FengZhenger/UninstallSimulator" Click="Hyperlink_Click">Github仓库</Hyperlink>
+        </TextBlock>
     </Grid>
 </Window>
