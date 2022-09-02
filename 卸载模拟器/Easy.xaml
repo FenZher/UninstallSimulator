@@ -19,8 +19,8 @@
                 <ColumnDefinition />
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
-            <Button x:Name="cancelButton" Content="取消卸载" Grid.Column="0" FontSize="24" Click="cancelButton_Click" />
-            <Button x:Name="continueButton" Content="忍痛卸载" Grid.Column="1" FontSize="24" Click="continueButton_Click" />
+            <Button x:Name="cancelButton" Content="取消卸载" Grid.Column="0" FontSize="24" Click="cancelButton_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Height="40" />
+            <Button x:Name="continueButton" Content="忍痛卸载" Grid.Column="1" FontSize="24" Click="continueButton_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Height="40" />
         </Grid>
     </Grid>
 </Page>
