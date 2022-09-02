@@ -34,6 +34,16 @@ namespace 卸载模拟器
                 easy.window = this;
                 simulationFrame.Navigate(easy);
             }
+            else if (difficulty == 2)
+            {
+                Normal normal = new Normal();
+                normal.window = this;
+                simulationFrame.Navigate(normal);
+            }
+            else
+            {
+                return;
+            }
         }
     }
 }
