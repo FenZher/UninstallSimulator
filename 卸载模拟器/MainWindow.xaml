@@ -34,7 +34,7 @@
             </Grid.ColumnDefinitions>
             <TextBlock Text="版本号：1.0" Grid.Column="1" VerticalAlignment="Bottom" HorizontalAlignment="Right" />
             <TextBlock Grid.Column="0" VerticalAlignment="Bottom" HorizontalAlignment="Left">
-                <Hyperlink NavigateUri="https://github.com/FengZhenger/UninstallSimulator" Click="Hyperlink_Click">Github仓库</Hyperlink>
+                <Hyperlink Click="Hyperlink_Click">仓库地址</Hyperlink>
             </TextBlock>
         </Grid>
     </Grid>

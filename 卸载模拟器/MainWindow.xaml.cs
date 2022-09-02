@@ -35,8 +35,8 @@ namespace 卸载模拟器
 
         private void Hyperlink_Click(object sender, RoutedEventArgs e)
         {
-            Hyperlink? link = sender as Hyperlink;
-            Process.Start(new ProcessStartInfo(link.NavigateUri.AbsoluteUri));
+            Clipboard.SetDataObject("http://github.com/FengZhenger/UninstallSimulator");
+            MessageBox.Show("仓库地址已复制到您的剪切板。");
         }
     }
 }
