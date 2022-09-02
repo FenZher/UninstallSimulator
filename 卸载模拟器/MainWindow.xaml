@@ -26,7 +26,7 @@
                 <ComboBoxItem Content="困难" IsSelected="True" />
             </ComboBox>
         </Grid>
-        <Button x:Name="startSimulationButton" Content="开始模拟" Grid.Row="2" Click="startSimulationButton_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Height="30" />
+        <Button x:Name="startSimulationButton" Content="开始模拟" Grid.Row="2" Click="startSimulationButton_Click" />
         <Grid Grid.Row="3">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition />
