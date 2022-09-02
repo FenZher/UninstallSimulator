@@ -20,13 +20,13 @@
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
             <TextBlock Text="难度：" HorizontalAlignment="Right" VerticalAlignment="Center" />
-            <ComboBox x:Name="difficultyComboBox" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Center">
+            <ComboBox x:Name="difficultyComboBox" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200">
                 <ComboBoxItem Content="简单" />
                 <ComboBoxItem Content="普通" />
                 <ComboBoxItem Content="困难" IsSelected="True" />
             </ComboBox>
         </Grid>
-        <Button x:Name="startSimulationButton" Content="开始模拟" Grid.Row="2" Click="startSimulationButton_Click" />
+        <Button x:Name="startSimulationButton" Content="开始模拟" Grid.Row="2" Click="startSimulationButton_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="214" Height="30" />
         <Grid Grid.Row="3">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition />
